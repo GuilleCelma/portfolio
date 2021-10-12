@@ -14,17 +14,22 @@ body{
 .Navbar{
     width:100vw;
     height: 80px;
-    background-color: #021e3900;
+    background-color: transparent;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     margin:0px;
+    position: fixed;
+    transition: 1s ease;
     
+}
+.active{
+    background-color: white;
 }
 .Navbar .leftSide{
     flex:50%;
     display: flex;
     align-items: center;
-    color:#021E39;
+    color:black;
     margin-left: 60px;
 }
 
@@ -45,7 +50,7 @@ body{
     margin-right: 40px;
     list-style: none;
     text-decoration: none;
-    color:#021E39;
+    color: black;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -106,17 +111,18 @@ body{
 
 #hero{
     width:100vw;
-    height: 100vh;
+    height: 200vh;
     background-image: url("/src/code2.jpg");
     background-size: cover; 
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
+ 
 }
 
 #hero h1, h3, p{
-    color: white
+    color: white;
+    
 }
 
 #hero-container{
