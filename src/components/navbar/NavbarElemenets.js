@@ -1,16 +1,18 @@
 
+import { Link } from "react-scroll"
+
 
  const LinkList = ({id})=>{
     return(
         <ul id={id}>
             <li>
-                <a href="#about">About</a>
+                <Link to="about" smooth={true} duration={1000}>About</Link>
             </li>
             <li>
-                <a href="#work">Work</a>
+                <Link to="work" smooth={true} duration={1000}>Work</Link>
             </li>
             <li>
-                <a href="#contact">Contact</a>
+                <Link to="contact" smooth={true} duration={1000}>Contact</Link>
             </li>
         </ul>
     )

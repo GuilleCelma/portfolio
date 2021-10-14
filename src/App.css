@@ -22,7 +22,7 @@ body{
     
 }
 .active{
-    transition: 1s ease;
+    transition: 0.5s ease;
     background-color: white;
 }
 .Navbar .leftSide{
@@ -53,7 +53,11 @@ body{
     color: black;
     font-weight: bold;
     letter-spacing: 2px;
+    cursor: pointer;
 }
+
+
+
 .Navbar .rightSide button{
     display: none;
     height: 35px;
@@ -111,7 +115,7 @@ body{
 
 #hero{
     width:100vw;
-    height: 200vh;
+    height: 100vh;
     background-image: url("/src/code2.jpg");
     background-size: cover; 
     display: flex;
@@ -127,8 +131,9 @@ body{
 
 #hero-container{
 border: 1px solid black;
-background-color:rgba(0,0,0, 0.8);
-height: 30vh;
+background-color:rgba(0,0,0, 0.6);
+width: 100vw;
+height: 100vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -192,4 +197,15 @@ padding:20px;
         font-size: 1rem;
         text-align: center;
     }
+}
+
+
+/*<--------------------------------------- END OF HERO SECTION STYLES ----------------------------------->*/
+
+/*<--------------------------------------- ABOUT SECTION  STYLES ----------------------------------->*/
+
+#about{
+    height: 100vh;
+    transition: 2s ease;
+    scroll-behavior: smooth; 
 }
