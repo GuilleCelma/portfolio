@@ -27,8 +27,8 @@ const AboutSection = ()=>{
                 <br/>
 
                 <div id="socialContainer">
-                    <a className="socialLink" href="/linkedin"> <Icon className="social" path={mdiGithub}/> </a>
-                    <a className="socialLink" href="/linkedin"> <Icon className="social" path={mdiLinkedin}/> </a>
+                    <a className="socialLink" href="https://github.com/GuilleCelma" target="_blank"> <Icon className="social" path={mdiGithub}/> </a>
+                    <a className="socialLink" href="https://www.linkedin.com/in/guillem-celma/" target="_blank"> <Icon className="social" path={mdiLinkedin}/> </a>
                 </div>
                
                     
