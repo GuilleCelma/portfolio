@@ -20,13 +20,13 @@ const AboutSection = ()=>{
                 <p>I'm a web developer based in Barcelona and I love creating web applications that people can enjoy and use.</p>
                 <br/>
 
-                <p>My goal is to create products that clients are proud of, and tho architect clean and readable code.</p>
+                <p>My goal is to create products that clients are proud of, and to architect clean and readable code.</p>
                 <br/>
 
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 <br/>
 
-                <div id="socialContainer">
+                <div className="socialContainer">
                     <a className="socialLink" href="https://github.com/GuilleCelma" target="_blank"> <Icon className="social" path={mdiGithub}/> </a>
                     <a className="socialLink" href="https://www.linkedin.com/in/guillem-celma/" target="_blank"> <Icon className="social" path={mdiLinkedin}/> </a>
                 </div>
