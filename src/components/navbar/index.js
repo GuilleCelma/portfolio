@@ -2,6 +2,7 @@
 import "../../App.css"
 import LinkList from "./NavbarElemenets"
 import React, {useState} from "react"
+import { Link } from "react-scroll"
 
 
 const Navbar = () =>{
@@ -21,11 +22,11 @@ const Navbar = () =>{
     return (
         <nav className={ navColor ? "Navbar active" : "Navbar"} >
             <div className="leftSide">
-            <h1>Logo</h1>
+            <Link to="hero" smooth={true} duration={1000} className={navColor ? "activeText": ""}>Logo</Link>
             </div>
 
             <div className="rightSide">
-                <LinkList id ={showLinks ? "hidden" : ""}/>
+                <LinkList id ={showLinks ? "hidden" : ""}  color={ navColor ? "activeText": ""}/>
                 <button onClick={()=> setShowLinks(!showLinks)
                 }><img src="/menu.png" alt="" id ="menuIcon"></img></button>
             </div>

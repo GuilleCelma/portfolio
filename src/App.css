@@ -27,13 +27,17 @@ body{
     transition: 0.5s ease;
     background-color: white;
     box-shadow: 1px 1px 10px rgba(199, 199, 199, 0.514);
-    
+}
+
+.activeText{
+    color:black;
+
 }
 .Navbar .leftSide{
     flex:50%;
     display: flex;
     align-items: center;
-    color:black;
+    color:white;
     margin-left: 60px;
 }
 
@@ -54,12 +58,16 @@ body{
     margin-right: 40px;
     list-style: none;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
     letter-spacing: 2px;
     cursor: pointer;
+    transition: 0.4s ease;
 }
 
+.rightSide a:hover{
+    color:rgb(245, 80, 80);
+}
 
 
 .Navbar .rightSide button{
@@ -94,6 +102,7 @@ body{
     .Navbar .rightSide li, a {
         margin: 20px;
     }
+
     .Navbar .rightSide button{
         display:block;
         margin-right: 20px;
@@ -119,7 +128,7 @@ body{
 
 #hero{
     width:100vw;
-    height: 100vh;
+    height: 97.5vh;
     background-image: url("/src/code2.jpg");
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
     background-size: cover; 
@@ -261,10 +270,11 @@ padding:20px;
     margin-top: 20px;
     height: 50%;
     width: auto;
+    color: black;
 }
 .social:hover{
    
-    color:rgb(64, 98, 212);
+    color:rgb(245, 80, 80);
     transition: 0.4s ease;
 }
 
@@ -397,13 +407,137 @@ align-items: center;
    
 }
 .workLink{
+    
     margin-top: 20px;
-    height: 15%;
+    height: 60%;
     width: auto;
     color:white;
     
 }
 .workLink:hover{
-    color:rgb(64, 98, 212);
+    color:rgb(245, 80, 80);
     transition: 0.4s ease;
 }
+
+/*<--------------------------------------- END OF WORK SECTION STYLES ----------------------------------->*/
+
+/*<--------------------------------------- CONTACT SECTION  STYLES ----------------------------------->*/
+
+#contact{
+    height: 120vh;
+    background-color: rgb(248, 249, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact h2{
+    margin:30px 0 0 0 ;
+    font-size: 2.5rem;
+}
+
+#contactContainer{
+    display: flex;
+    margin: 30px 0 ;
+}
+
+
+.contactCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 40px;
+}
+
+.contactIcon{
+    width: 9vw;
+    height: 6vh;
+    color: rgb(224, 109, 109);
+}
+#contactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+}
+#contactForm input, 
+#contactForm textarea {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid rgb(190, 190, 190);
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+   
+}
+#contactForm input:focus, 
+#contactForm textarea:focus{
+    border: 2px solid  rgb(224, 109, 109);
+}
+
+input::placeholder, 
+textarea::placeholder{
+    font-size: 1rem;
+    padding:10px;
+
+}
+#submitBtn{
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    background-color: rgb(245, 80, 80);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .3s;
+}
+#submitBtn:hover{
+    background-color: rgb(163, 1, 1);
+}
+#submitBtn:active {
+    -moz-transform: translate(0px, 25px);
+    -webkit-transform: translate(0px, 25px);
+    -o-transform: translate(0px, 25px);
+    -ms-transform: translate(0px, 25px);
+    transform: translate(0px, 25px);
+ }
+
+/*<--------------------------------------- END OF CONTACT SECTION STYLES ----------------------------------->*/
+
+/*<--------------------------------------- FOOTER SECTION  STYLES ----------------------------------->*/
+
+#footer{
+    height: 30vh;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#footer p{
+    color: rgb(148, 147, 147);
+    margin-top: 40px;
+
+}
+
+#footerLinks{
+    display: flex;
+    justify-content: center;
+}
+.footerLink{
+    height: 6vh;
+    color:rgb(148, 147, 147);
+    padding: 10px;
+    background-color: rgb(75, 72, 72);
+    border-radius: 50%;
+    transition: 0.5s ease;
+}
+
+.footerLink:hover{
+    color:  rgb(245, 80, 80);
+}
+

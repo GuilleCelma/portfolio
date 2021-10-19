@@ -1,5 +1,5 @@
 
-import Icon, { Stack } from '@mdi/react';
+import Icon from '@mdi/react';
 import { mdiLinkedin,mdiGithub } from '@mdi/js';
 
 
@@ -27,8 +27,8 @@ const AboutSection = ()=>{
                 <br/>
 
                 <div className="socialContainer">
-                    <a className="socialLink" href="https://github.com/GuilleCelma" target="_blank"> <Icon className="social" path={mdiGithub}/> </a>
-                    <a className="socialLink" href="https://www.linkedin.com/in/guillem-celma/" target="_blank"> <Icon className="social" path={mdiLinkedin}/> </a>
+                    <a  href="https://github.com/GuilleCelma" target="_blank" rel="noreferrer"> <Icon className="social" path={mdiGithub}/> </a>
+                    <a  href="https://www.linkedin.com/in/guillem-celma/" target="_blank" rel="noreferrer"> <Icon className="social" path={mdiLinkedin}/> </a>
                 </div>
                
                     
