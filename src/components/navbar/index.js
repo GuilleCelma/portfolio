@@ -28,7 +28,7 @@ const Navbar = () =>{
             <div className="rightSide">
                 <LinkList id ={showLinks ? "hidden" : ""}  color={ navColor ? "activeText": ""}/>
                 <button onClick={()=> setShowLinks(!showLinks)
-                }><img src="/menu.png" alt="" id ="menuIcon"></img></button>
+                }><img src="/menu3.png" alt="" id ="menuIcon"></img></button>
             </div>
         </nav>
     )

@@ -1,6 +1,7 @@
 
 import Icon from '@mdi/react';
 import { mdiLinkedin,mdiGithub } from '@mdi/js';
+import Fade from 'react-reveal/Fade';
 
 
 
@@ -9,9 +10,12 @@ const AboutSection = ()=>{
 
     return (
         <section id="about">
-            <div id="imgContainer">
-              <img src="/about.jpg" alt="" />
-            </div>
+            <Fade left>
+                <div id="imgContainer">
+                <img src="/about.jpg" alt="" />
+                </div>
+            </Fade>
+            <Fade right>
             <div id="aboutTextContainer">
                 <h2>About Me</h2>
 
@@ -34,7 +38,7 @@ const AboutSection = ()=>{
                     
                 
             </div>
-        
+            </Fade>
         </section>
 
     )

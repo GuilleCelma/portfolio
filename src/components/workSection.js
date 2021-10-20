@@ -1,6 +1,6 @@
 import Icon from '@mdi/react';
 import { mdiWeb, mdiGithub } from '@mdi/js';
-
+import Fade from 'react-reveal/Fade';
 
 const WorkSection = ()=>{
 
@@ -10,7 +10,7 @@ return(
         <h2>My Work</h2>
 
         <div id="workContainer">
-
+        <Fade bottom>
             <div className="workCard">
                 <img src="/tooly.png" alt="" />
                 <div className="workText">
@@ -27,7 +27,8 @@ return(
                     </div>
                 </div>
             </div>
-
+        </Fade>
+        <Fade bottom>
              <div className="workCard">
                 <img src="/CryptoCharts.png" alt="" />
                  <div className="workText">
@@ -43,9 +44,9 @@ return(
                     </div>
                 </div>
                 
-                
             </div> 
-
+        </Fade>
+        <Fade bottom>
              <div className="workCard">
                 <img src="/shark.png" alt="" />
                  <div className="workText">
@@ -62,8 +63,8 @@ return(
                     </div>
                 </div>
                 
-                
             </div> 
+        </Fade>
             
 
         </div>
