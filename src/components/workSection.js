@@ -65,25 +65,7 @@ return(
                 
             </div> 
         </Fade>
-        <Fade bottom>
-             <div className="workCard">
-                <img src="/shark.png" alt="" />
-                 <div className="workText">
-
-                    <h3>Hungry shark</h3>
-                    <p> Web app builded with MERN stack 
-
-                    </p>
-
-                    <div className="workLinksContainer">
-                        <a className="workLink" href="https://guillecelma.github.io/Project1-HungryShark/" target="_blank" rel="noreferrer"> <Icon className="workLink" path={mdiWeb}/> Site </a>
-                        <a className="workLink" href="https://github.com/GuilleCelma/Project1-HungryShark" target="_blank" rel="noreferrer"> <Icon className="workLink" path={mdiGithub}/>  Code </a>
-                     
-                    </div>
-                </div>
-                
-            </div> 
-        </Fade>
+       
             
 
         </div>
