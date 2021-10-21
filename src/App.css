@@ -167,9 +167,22 @@ padding:20px;
     font-size: 3.5rem;
     margin-bottom: 20px;
 }
-#hero-container p{
-    font-size: 1rem;
+#downloadBtn{
+    border: 2px solid rgb(245, 80, 80);
+    border-radius: 5px;
+    padding: 10px 20px ;
 }
+#downloadBtn:hover{
+    background-color: rgb(245, 80, 80);
+    
+}
+#downloadBtn:active {
+    -moz-transform: translate(0px, 25px);
+    -webkit-transform: translate(0px, 25px);
+    -o-transform: translate(0px, 25px);
+    -ms-transform: translate(0px, 25px);
+    transform: translate(0px, 25px);
+ }
 
 
 @media only screen and (max-width: 1224px){
@@ -713,7 +726,7 @@ textarea::placeholder{
     padding:10px;
 
 }
-#submitBtn{
+.submitBtn{
     width: 150px;
     height: 50px;
     border: none;
@@ -724,10 +737,10 @@ textarea::placeholder{
     border-radius: 5px;
     transition: all .3s;
 }
-#submitBtn:hover{
+.submitBtn:hover{
     background-color: rgb(163, 1, 1);
 }
-#submitBtn:active {
+.submitBtn:active {
     -moz-transform: translate(0px, 25px);
     -webkit-transform: translate(0px, 25px);
     -o-transform: translate(0px, 25px);

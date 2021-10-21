@@ -7,7 +7,7 @@ const HeroSection = ()=> {
             <div id="hero-container">
                 <h3>Welcome!</h3>
                 <h1> I'm Guille Celma, Web Developer</h1>
-                <p> It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                <a href="CV-EN.pdf" download="GFG" id="downloadBtn">Download CV</a>
             </div>
         </section>
     )

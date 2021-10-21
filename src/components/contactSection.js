@@ -69,7 +69,7 @@ const ContactSection = ()=>{
                     field="message"
                     errors={state.errors}
                 />
-                <button type="submit" id="submitBtn" disabled={state.submitting}>
+                <button type="submit" className="submitBtn" disabled={state.submitting}>
                     Submit
                 </button>
             </form>
