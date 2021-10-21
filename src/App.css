@@ -658,7 +658,7 @@ align-items: center;
 
     .workText{
         width: 70vw;
-        height: 40vh;
+        height: 30vh;
     }
 
 }
@@ -676,7 +676,7 @@ align-items: center;
 }
 
 #contact h2{
-    margin:30px 0 0 0 ;
+    margin:60px 0 0 0 ;
     font-size: 2.5rem;
 }
 
@@ -762,7 +762,7 @@ textarea::placeholder{
  @media only screen and (max-width: 600px){
 
     #contact{
-        height: 140vh;
+        height: 120vh;
     }
 
     #contactForm input, 
