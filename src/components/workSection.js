@@ -16,7 +16,7 @@ return(
                 <div className="workText">
 
                     <h3>Tooly</h3>
-                    <p> Web app builded with MERN stack</p>
+                    <p> Web app that serves as a contact platform beetween users that need tools and users that offer renting toolsU. Users can book tools for several and pay by paypal or advertise their tools for someone else to rent.</p>
                     <p className="tech">REACT.JS | NODE.JS | MONGO DB | PAYPAL| GOOGLE Geolocation | Talk.js</p>
 
                     <div className="workLinksContainer">
@@ -52,10 +52,8 @@ return(
                  <div className="workText">
 
                     <h3>Hungry shark</h3>
-                    <p> Web app builded with MERN stack 
-
-                    </p>
-
+                    <p> A game created using HTLM, canvas,CSS and Javascript. The goal is to eat 30 small fishes while dodgin enemy mines.</p>
+                    <p className="tech">HTML | CSS | JS </p>
                     <div className="workLinksContainer">
                         <a className="workLink" href="https://guillecelma.github.io/Project1-HungryShark/" target="_blank" rel="noreferrer"> <Icon className="workLink" path={mdiWeb}/> Site </a>
                         <a className="workLink" href="https://github.com/GuilleCelma/Project1-HungryShark" target="_blank" rel="noreferrer"> <Icon className="workLink" path={mdiGithub}/>  Code </a>
