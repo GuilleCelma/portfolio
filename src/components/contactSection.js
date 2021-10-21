@@ -1,5 +1,5 @@
 import Icon from '@mdi/react';
-import { mdiCellphoneBasic, mdiEmailOutline } from '@mdi/js';
+import { mdiCellphoneBasic, mdiEmailOutline, mdiLinkedin } from '@mdi/js';
 import { useForm, ValidationError } from '@formspree/react';
 
     
@@ -26,12 +26,12 @@ const ContactSection = ()=>{
                     <h5>Email</h5>
                     <p>Guillecelmaan@hotmail.es</p>
                 </div>
-                <div className="contactCard">
-                    <Icon className="contactIcon" path={mdiCellphoneBasic}/>
-                    <h5>Call Me</h5>
-                    <p>+34 620 107 825</p>
+               {/*  <div className="contactCard">
+                    <Icon className="contactIcon" path={mdiLinkedin}/>
+                    <h5>Linkedin</h5>
+                    <a href="" target="_blank" rel="noreferrer">Connect!</a>
                 </div>
-
+ */}
 
             </div>
             <form action="https://formspree.io/f/mgerbkgd" method="POST"  id="contactForm">

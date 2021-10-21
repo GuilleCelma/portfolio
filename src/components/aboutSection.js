@@ -21,13 +21,13 @@ const AboutSection = ()=>{
 
                 <h4>Hello!<span> I'm Guille Celma</span></h4>
 
-                <p>I'm a web developer based in Barcelona and I love creating web applications that people can enjoy and use.</p>
+                <p>I'm a web developer based in Barcelona and adept in bringing forth expertise in installation, testing and maintenance of web applications.</p>
                 <br/>
 
-                <p>My goal is to create products that clients are proud of, and to architect clean and readable code.</p>
+                <p>Experienced with the latest cutting edge development tools and procedures.</p>
                 <br/>
 
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <p>Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team.</p>
                 <br/>
 
                 <div className="socialContainer">

@@ -121,6 +121,7 @@ body{
         width: 100%;
         color:white;
         background-color: rgb(105,105,105) ;
+        z-index: 100;
     }
 }
 
@@ -360,9 +361,6 @@ padding:20px;
 }
 
 
-
-
-
 /*<--------------------------------------- END OF ABOUT SECTION STYLES ----------------------------------->*/
 
 /*<--------------------------------------- SKILLS SECTION  STYLES ----------------------------------->*/
@@ -424,7 +422,7 @@ padding:20px;
 }
 @media only screen and (max-width: 500px){
     #skills{
-        height: 80vh;
+        height: 60vh;
     }
 
     #skillContainer{
@@ -671,7 +669,7 @@ align-items: center;
 
 #contactContainer{
     display: flex;
-    margin: 30px 0 ;
+    margin: 50px 0 ;
 }
 
 
@@ -749,7 +747,11 @@ textarea::placeholder{
 
  }
  @media only screen and (max-width: 600px){
-    
+
+    #contact{
+        height: 140vh;
+    }
+
     #contactForm input, 
     #contactForm textarea {
         height: 50px;
