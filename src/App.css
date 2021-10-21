@@ -423,7 +423,9 @@ padding:20px;
     }
 }
 @media only screen and (max-width: 500px){
-
+    #skills{
+        height: 80vh;
+    }
 
     #skillContainer{
         display: flex;
@@ -606,7 +608,49 @@ align-items: center;
       
     }
 }
+@media only screen and (max-width: 750px){
 
+    #work{
+        height: 200vh;
+    }
+    .workCard{
+       
+        width: 70vw;
+        height:40vh;
+    }
+    .workCard img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+
+    .workText{
+        width: 70vw;
+        height: 40vh;
+    }
+
+}
+
+@media only screen and (max-width: 550px){
+
+  
+    .workCard{
+       
+        width: 70vw;
+        height:30vh;
+    }
+    .workCard img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+
+    .workText{
+        width: 70vw;
+        height: 40vh;
+    }
+
+}
 
 /*<--------------------------------------- END OF WORK SECTION STYLES ----------------------------------->*/
 
@@ -698,6 +742,9 @@ textarea::placeholder{
     #contactContainer{
         display: flex;
         flex-direction: column;
+    }
+    .contactCard{
+        margin-bottom: 20px;
     }
 
  }
