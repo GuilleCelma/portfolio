@@ -7,14 +7,14 @@ import SkillsSection from './components/skillsSection';
 import WorkSection from './components/workSection';
 import ContactSection from './components/contactSection';
 import Footer from './components/footer';
-
+import Header from './components/navbar/header';
 
 
 function App() {
   return (
     <div className="App">
       
-      <Navbar />
+      <Header />
       <HeroSection />
       <AboutSection />
       <SkillsSection />
