@@ -28,7 +28,7 @@ const Navbar = () =>{
 
             <div className="rightSide">
                 <Fade left >
-                    <LinkList id ={showLinks ? "hidden" : ""}  color={ navColor ? "activeText": ""}/>
+                    <LinkList showLinks ={showLinks ? "hidden" : ""}  color={ navColor ? "activeText": ""}/>
                 </Fade>
                 <button onClick={()=> setShowLinks(!showLinks)}>
                     <img src="/menu3.png" alt="" id ="menuIcon"/>

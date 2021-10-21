@@ -34,7 +34,7 @@ return(
                  <div className="workText">
 
                     <h3>Cryptocoin</h3>
-                    <p>CryptoCoin is a web app for those interested in the world of cryptocurrencies, it allows you to see in real time the prices of the most relevant cryptocurrencies and keep track of all your transactions to later visualize information about them in convinient graphs.</p>
+                    <p>CryptoCoin allows you to see in real time the prices of the most relevant cryptocurrencies and keep track of all your transactions to later visualize information about them in convinient graphs.</p>
                     <p className="tech">HTML | CSS | JS | NODE.JS | MONGO DB | CoinGecko API | Passport</p>
                     <div className="workLinksContainer">
                         <a className="workLink" href="https://cryptocoin-project.herokuapp.com" target="_blank" rel="noreferrer"> <Icon className="workLink" path={mdiWeb}/> Site </a>
