@@ -110,7 +110,7 @@ body{
         border: none;
        background-color: transparent;
     }
-    .Navbar .rightSide #hidden{
+    .Navbar .rightSide .hidden{
         display:flex;
         flex-direction: column;
         justify-content: center;
@@ -118,7 +118,7 @@ body{
         position: absolute;
         left:0px;
         top:80px;
-        height: 230px;
+        height: 200px;
         width: 100%;
         color:white;
         background: url("code2.jpg") ;
