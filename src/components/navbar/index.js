@@ -23,7 +23,7 @@ const Navbar = () =>{
     return (
         <nav className={ navColor ? "Navbar active" : "Navbar"} >
             <div className="leftSide">
-                <Link to="hero" smooth={true} duration={1000} className={navColor ? "activeText": ""}>Logo</Link>
+                <Link to="hero" smooth={true} duration={1000} className={navColor ? "activeText": ""}> <img src="/alphabet-g.svg" alt="" id="logo"/> </Link>
             </div>
 
             <div className="rightSide">
