@@ -15,6 +15,7 @@ const SkillsSection = ()=>{
                 <img src="node.svg" alt="" className="skillIcon" />
                 <img src="expressjs-ar21.svg" alt="" className="skillIcon" />
                 <img src="mongodb-ar21.svg" alt="" className="skillIcon" />
+                <img src="bootstrap-4.svg" alt="" className="skillIcon" />
             </div>
 
 

@@ -3,6 +3,7 @@ import "../../App.css"
 import LinkList from "./NavbarElemenets"
 import React, {useState} from "react"
 import { Link } from "react-scroll"
+import Fade from 'react-reveal/Fade';
 
 
 const Navbar = () =>{
@@ -22,13 +23,16 @@ const Navbar = () =>{
     return (
         <nav className={ navColor ? "Navbar active" : "Navbar"} >
             <div className="leftSide">
-            <Link to="hero" smooth={true} duration={1000} className={navColor ? "activeText": ""}>Logo</Link>
+                <Link to="hero" smooth={true} duration={1000} className={navColor ? "activeText": ""}>Logo</Link>
             </div>
 
             <div className="rightSide">
-                <LinkList id ={showLinks ? "hidden" : ""}  color={ navColor ? "activeText": ""}/>
-                <button onClick={()=> setShowLinks(!showLinks)
-                }><img src="/menu3.png" alt="" id ="menuIcon"></img></button>
+                <Fade left >
+                    <LinkList id ={showLinks ? "hidden" : ""}  color={ navColor ? "activeText": ""}/>
+                </Fade>
+                <button onClick={()=> setShowLinks(!showLinks)}>
+                    <img src="/menu3.png" alt="" id ="menuIcon"/>
+                </button>
             </div>
         </nav>
     )
