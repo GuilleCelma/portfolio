@@ -672,8 +672,8 @@ textarea::placeholder{
 
 }
 #submitBtn{
-    width: 10vw;
-    height: 5vh;
+    width: 150px;
+    height: 50px;
     border: none;
     background-color: rgb(245, 80, 80);
     color: white;
@@ -692,6 +692,28 @@ textarea::placeholder{
     -ms-transform: translate(0px, 25px);
     transform: translate(0px, 25px);
  }
+
+
+ @media only screen and (max-width: 900px){
+    #contactContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+ }
+ @media only screen and (max-width: 600px){
+    
+    #contactForm input, 
+    #contactForm textarea {
+        height: 50px;
+        width: 250px;
+    }
+   
+
+
+ }
+
+
 
 /*<--------------------------------------- END OF CONTACT SECTION STYLES ----------------------------------->*/
 
