@@ -353,13 +353,13 @@ padding:20px;
     }
 
     #imgContainer {
-        height: 45vh;
-        width: 75vw;
+        height: 35vh;
+        width: 55vw;
        
     }
     #imgContainer img {
-        height: 45vh;
-        width: 75vw;
+        height: 35vh;
+        width: 55vw;
     }
 
 }
@@ -369,10 +369,24 @@ padding:20px;
         height: 170vh;
       
     }
+    
     #aboutTextContainer{
     
         font-size:18px;
     }
+
+
+
+#imgContainer {
+    height: 25vh;
+    width: 45vw;
+   
+}
+#imgContainer img {
+    height: 25vh;
+    width: 55vw;
+}
+
   
 
 }
