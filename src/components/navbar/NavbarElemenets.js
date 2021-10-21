@@ -2,11 +2,11 @@
 import { Link } from "react-scroll"
 
 
- const LinkList = ({showLinks, color})=>{
+ const LinkList = ({id, color})=>{
 
    
     return(
-        <ul id={showLinks}>
+        <ul id={id}>
             <li>
                 <Link to="about" smooth={true} duration={1000} className={color}>About</Link>
             </li>
