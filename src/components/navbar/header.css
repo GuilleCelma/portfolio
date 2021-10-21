@@ -1,5 +1,6 @@
 .header {
     display: flex;
+    position:relative;
     background: rgb(255, 254, 254);
     justify-content:space-between;
     align-items: center;
@@ -15,9 +16,11 @@
       color: black;
   }
   #logo {
+    position:absolute;
     width: 35px;
     height: 35px;
-    
+    top:15px;
+    left:40px
   }
   .nav-options {
     padding-left: 25px;
@@ -31,7 +34,7 @@
   }
   
   .option :hover {
-    color: white;
+    color: rgb(245, 80, 80);;
   }
 
   .mobile-menu {
@@ -42,10 +45,7 @@
     .header {
       padding: 0px 10px;
     }
-    .logo {
-      width: 45px;
-      height: 45px;
-    }
+   
     .nav-options {
       display: flex;
       width: 100%;
