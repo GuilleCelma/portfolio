@@ -651,7 +651,7 @@ align-items: center;
   
     .workCard{
        
-        width: 70vw;
+        width: 75vw;
         height:30vh;
     }
     .workCard img{
@@ -661,9 +661,40 @@ align-items: center;
     }
 
     .workText{
-        width: 70vw;
+        width: 75vw;
         height: 30vh;
     }
+
+
+    .workText p{
+        margin-top: 20px;
+        width: 75%;
+        font-size: 0.5em;
+        text-align: center;
+    }
+    .tech{
+        color:rgb(154, 155, 156);
+        font-size: 0.1em;
+    }
+    
+    .workLinksContainer{
+        height: 7vh;
+        font-size: 0.4em;
+        
+    }
+    .workLink{
+        
+        margin-top: 20px;
+        height: 40%;
+        width: auto;
+        color:white;
+        
+    }
+    .workLink:hover{
+        color:rgb(245, 80, 80);
+        transition: 0.4s ease;
+    }
+
 
 }
 
