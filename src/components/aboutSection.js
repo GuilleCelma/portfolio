@@ -12,7 +12,7 @@ const AboutSection = ()=>{
         <section id="about">
             <Fade left>
                 <div id="imgContainer">
-                <img src="/about.jpg" alt="" />
+                <img src="/photo.jpg" alt="" />
                 </div>
             </Fade>
             <Fade right>

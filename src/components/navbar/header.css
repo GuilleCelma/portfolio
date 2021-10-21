@@ -1,19 +1,23 @@
 .header {
     display: flex;
-    background: rgb(88, 88, 88);
-    justify-content: space-between;
+    background: rgb(255, 254, 254);
+    justify-content:space-between;
     align-items: center;
     position: fixed;
     padding: 0px 40px;
     height: 60px;
     width: 100vw;
     z-index: 100;
+    color:black;
   }
-
-  
+ 
+  .link{
+      color: black;
+  }
   #logo {
     width: 35px;
     height: 35px;
+    
   }
   .nav-options {
     padding-left: 25px;
@@ -30,8 +34,6 @@
     color: white;
   }
 
-
-  
   .mobile-menu {
     display: none;
   }
@@ -58,7 +60,7 @@
       grid-gap: 0px;
     }
     .nav-options.active {
-      background: rgb(88, 88, 88);
+      background: rgb(255, 254, 254);
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
