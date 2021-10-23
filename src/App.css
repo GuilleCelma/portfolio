@@ -340,7 +340,7 @@ padding:20px;
 @media only screen and (max-width: 450px){
 
     #about{
-        height: 120vh;
+        height: 140vh;
       
     }
 
@@ -354,7 +354,7 @@ padding:20px;
 @media only screen and (max-width: 330px){
 
     #about{
-        height: 170vh;
+        height: 140vh;
       
     }
     
@@ -362,18 +362,6 @@ padding:20px;
     
         font-size:18px;
     }
-
-
-
-/* #imgContainer {
-    height: 25vh;
-    width: 45vw;
-   
-}
-#imgContainer img {
-    height: 25vh;
-    width: 55vw;
-} */
 
   
 
