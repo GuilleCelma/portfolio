@@ -10,9 +10,9 @@ const AboutSection = ()=>{
 
     return (
         <section id="about">
-            <Fade left>
+            <Fade left> 
                 <div id="imgContainer">
-                <img src="/photo.jpg" alt="" />
+                    <img src="/photo.jpg" alt="" />
                 </div>
             </Fade>
             <Fade right>
