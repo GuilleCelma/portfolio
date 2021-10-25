@@ -48,6 +48,23 @@ return(
         </Fade>
         <Fade bottom>
              <div className="workCard">
+                <img src="/ChatBox.png" alt="" />
+                 <div className="workText">
+
+                    <h3>ChatBox</h3>
+                    <p> Instant Messaging Web app that lets  users create private rooms and  add other users  for chat together in real time</p>
+                    <p className="tech">REACT.js | CSS | Firebase | Google Auth </p>
+                    <div className="workLinksContainer">
+                        <a className="workLink" href="https://chatboxwebapp.netlify.app" target="_blank" rel="noreferrer"> <Icon className="workLink" path={mdiWeb}/> Site </a>
+                        <a className="workLink" href="https://github.com/GuilleCelma/ChatBox" target="_blank" rel="noreferrer"> <Icon className="workLink" path={mdiGithub}/>  Code </a>
+                     
+                    </div>
+                </div>
+                
+            </div> 
+        </Fade>
+        <Fade bottom>
+             <div className="workCard">
                 <img src="/shark.png" alt="" />
                  <div className="workText">
 
