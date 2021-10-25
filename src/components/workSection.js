@@ -48,7 +48,7 @@ return(
         </Fade>
         <Fade bottom>
              <div className="workCard">
-                <img src="/ChatBox.png" alt="" />
+                <img src="/ChatBox2.png" alt="" />
                  <div className="workText">
 
                     <h3>ChatBox</h3>
